@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="pt-BR" data-bs-theme="dark">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +10,7 @@
     <link href="../css/style.css" rel="stylesheet">
 
 </head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg">
@@ -31,7 +33,8 @@
                         <a class="nav-link" href="index.html#formacao"><strong>02</strong> Formação</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#atuacaopro" target="blank"><strong>03</strong> Atuação Profissional</a>
+                        <a class="nav-link" href="index.html#atuacaopro" target="blank"><strong>03</strong> Atuação
+                            Profissional</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="contato.html" target="blank"><strong>04</strong> Contato</a>
@@ -40,7 +43,8 @@
                         <a class="nav-link" href="portfolio.html" target="blank"><strong>05</strong> Portfólio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="descricaotec.html" target="_blank"><strong>06</strong> Descrição Tecnologica</a>
+                        <a class="nav-link" href="descricaotec.html" target="_blank"><strong>06</strong> Descrição
+                            Tecnologica</a>
                     </li>
                 </ul>
             </div>
@@ -51,73 +55,102 @@
             <strong>Contato.</strong>
         </h1>
         <p class="p1">
-            Para entrar em contato comigo, basta me enviar um email pelo <strong class="strong1"><a href="#"
-                    class="achorlink1">formulario abaixo.</a></strong>
-            Além disso, estou disponível para conversas por <strong class="strong1"><a href="#"
+            Para entrar em contato comigo, basta me enviar um email pelo <strong class="strong1"><a href="#form"
+                    class="achorlink1">formulario abaixo. </a></strong>
+            Além disso, estou disponível para conversas por <strong class="strong1"><a href="#contato"
                     class="achorlink1">telefone.</a></strong> Caso prefira uma abordagem mais informal, você pode me
-            encontrar nas <strong class="strong1"><a href="#" class="achorlink1">redes sociais.</a></strong>
+            encontrar nas <strong class="strong1"><a href="#contato" class="achorlink1">redes sociais.</a></strong>
             Sinta-se à vontade para entrar em contato a qualquer momento para discutir ideias, esclarecer dúvidas ou
             colaborar em projetos.
             Estou ansioso para ouvir de você e estabelecer uma conexão produtiva.
         </p>
-     </div>
-    <section class="mb-4 hero" style="padding: 10vw;"> 
-        <h2 class="hero paragraf-tittle h1-responsive font-weight-bold text-center my-4" style="margin-left: 0;">
+    </div>
+    <section class="mb-4 hero" style="padding: 10vw;">
+        <h2 class="hero paragraf-tittle h1-responsive font-weight-bold text-center my-4" style="margin-left: 0;" id="form">
             Fale Comigo
         </h2>
-                <div class="row">
-                    <div class="">
-                        <form action="https://api.staticforms.xyz/submit" id="contact-form" method="post">
-                            <div class="row">
-                                <div class="col-md-6" style="padding: 1.5vh;">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="name" name="name" placeholder="Seu Nome" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6" style="padding: 1.5vh;">
-                                    <div class="md-form mb-0">
-                                        <input type="email" id="email" name="email" placeholder="Seu Email" class="form-control" required>
-                                    </div>
-                                </div>
+        <div class="row">
+            <div class="">
+                <form action="https://api.staticforms.xyz/submit" id="contact-form" method="post">
+                    <div class="row">
+                        <div class="col-md-6" style="padding: 1.5vh;">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" placeholder="Seu Nome" class="form-control"
+                                    required>
                             </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form" style="padding-top: 1.5vh;">
-                                            <textarea type="text" name="message" rows="5" class="form-control md-textarea" placeholder="Sua Mensagem" required></textarea>
-                                        </div>
-                                    </div>
-                                </div> 
-                            <div class="text-center text-md-left" style="padding: 1.5vh;">
-                                <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                        <div class="col-md-6" style="padding: 1.5vh;">
+                            <div class="md-form mb-0">
+                                <input type="email" id="email" name="email" placeholder="Seu Email" class="form-control"
+                                    required>
                             </div>
-                            <input type="hidden" name="accessKey" value="433b0317-be36-4884-b808-fc3de1d25c59">
-                            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/html/contato.html">
-                        </form>
-                    </section>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form" style="padding-top: 1.5vh;">
+                                <textarea type="text" name="message" rows="5" class="form-control md-textarea"
+                                    placeholder="Sua Mensagem" required></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center text-md-left" style="padding: 1.5vh;">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                    <input type="hidden" name="accessKey" value="433b0317-be36-4884-b808-fc3de1d25c59">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/html/contato.html">
+                </form>
+    </section>
+    <div class="hero" id="contato">
+        <div class="container text-center" style="margin-bottom: 12vh;">
+            <div class="row align-items-start">
+              <div class="col">
+                <i class="fa-solid fa-phone" style="color: #ff0062; font-size: 20px;">
+                    <i class="italico1" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #ff0062;">+55 32984681032</i>
+                </i>
+              </div>
+              <div class="col" style="padding: -4vw;">
+                <i class="fa-solid fa-envelope" style="color: #ff0062; font-size: 20px;">
+                    <i class="italico1" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #ff0062;">0katofc@gmail.com</i>
+                </i>
+              </div>
+              <div class="col">
+                <i class="fa-brands fa-linkedin" style="color: #ff0062; font-size: 20px;">
+                    <a href="https://www.linkedin.com/in/igor-oliveira-08b0a2278/" target="_blank" class="italico1" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #ff0062; text-decoration: none;">Igor Oliveira</i>
+                </i>
+              </div>
+            </div>
+          </div>
+     </div>
     <div class="bottom-0 footer-end">
         <footer class="bg-dark text-center text-white">
             <div class="container p-4 pb-0">
                 <section class="mb-4">
-                    <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/igo.olivee?igshid=OGQ5ZDc2ODk2ZA==" target="blank" role="button"><i
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://instagram.com/igo.olivee?igshid=OGQ5ZDc2ODk2ZA==" target="blank" role="button"><i
                             class="fab fa-instagram"></i></a>
                     <a class="btn btn-outline-light btn-floating m-1"
                         href="https://www.linkedin.com/in/igor-oliveira-08b0a2278/" target="blank" role="button"><i
                             class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/IgorOlive11" target="blank" role="button"><i
-                            class="fab fa-github"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/IgorOlive11"
+                        target="blank" role="button"><i class="fab fa-github"></i></a>
                 </section>
             </div>
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                 © 2020 Copyright:
-                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                <a class="text-white" href="index.html">Igor Oliveira</a>
             </div>
         </footer>
-     </div>
+    </div>
+
     <video id="background-video" autoplay loop muted poster="">
         <source src="../bkgndvideo/PewDiePie Wallpaper uncompressed.mp4" type="video/mp4">
-     </video>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"crossorigin="anonymous"></script>
+    </video>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f2bc34af9d.js" crossorigin="anonymous"></script>
 </body>
+
 
 </html>
